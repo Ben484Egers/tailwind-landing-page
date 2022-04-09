@@ -478,15 +478,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .container {
-    max-width: 600px;
+    max-width: 768px;
   }
 }
 
-@media (min-width: 776px) {
+@media (min-width: 900px) {
   .container {
-    max-width: 776px;
+    max-width: 900px;
   }
 }
 
@@ -818,7 +818,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 body{
-  background-image: url(../src/img/bg-tablet-pattern.svg);
+  background-image: url(../img/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   background-size: 800px;
   background-position: 90% -25%;
@@ -921,7 +921,7 @@ body{
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .md\:mb-4 {
     margin-bottom: 1rem;
   }
@@ -1003,7 +1003,7 @@ body{
   }
 }
 
-@media (min-width: 776px) {
+@media (min-width: 900px) {
   .lg\:flex {
     display: flex;
   }
